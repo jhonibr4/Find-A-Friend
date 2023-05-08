@@ -8,17 +8,17 @@ import {
   ContentFilterPet,
   TitleFilter,
   LabelSelect,
-} from './styles';
-import { SelectState } from '../../pages/Home/components/SelectState';
-import { SelectForm } from '../SelectForm';
+} from "./styles";
+import { SelectState } from "../../pages/Home/components/SelectState";
+import { SelectForm } from "../SelectForm";
 
-import { BsSearch } from 'react-icons/bs';
+import { BsSearch } from "react-icons/bs";
 
-import Logo from '../../assets/Logo.svg';
+import Logo from "../../assets/Logo.svg";
 
 export function MenuInfo() {
-  const states = [{ text: 'SP', value: 'SP' }];
-  const citys = [{ text: 'São Paulo', value: 'saopaulo' }];
+  const states = [{ text: "SP", value: "SP" }];
+  const citys = [{ text: "São Paulo", value: "saopaulo" }];
 
   return (
     <MenuInfoContainer>
@@ -48,28 +48,28 @@ export function MenuInfo() {
         <SelectForm
           size={100}
           typeSelect="filter"
-          placeholder="fdsaf"
+          placeholder="Selecione a idade..."
           item={citys}
         ></SelectForm>
         <LabelSelect>Nível de Energia</LabelSelect>
         <SelectForm
           size={100}
           typeSelect="filter"
-          placeholder="fdsaf"
+          placeholder="Selecione nível de energia..."
           item={citys}
         ></SelectForm>
         <LabelSelect>Porte do Animal</LabelSelect>
         <SelectForm
           size={100}
           typeSelect="filter"
-          placeholder="fdsaf"
+          placeholder="Selecione porte..."
           item={citys}
         ></SelectForm>
         <LabelSelect>Nível de Independência</LabelSelect>
         <SelectForm
           size={100}
           typeSelect="filter"
-          placeholder="fdsaf"
+          placeholder="Selecione independência..."
           item={citys}
         ></SelectForm>
       </ContentFilterPet>

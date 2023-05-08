@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ContainerPets = styled.div`
   position: absolute;
@@ -12,8 +12,8 @@ export const ContentPets = styled.div`
   height: 100%;
 `;
 export const TextTotalFriend = styled.p`
-  font-size: ${({ theme }) => theme.fontSize['2xl']};
-  color: ${({ theme }) => theme['blue-700']};
+  font-size: ${({ theme }) => theme.fontSize["2xl"]};
+  color: ${({ theme }) => theme["blue-700"]};
 `;
 export const WrapperFilter = styled.div`
   display: flex;
@@ -40,19 +40,19 @@ export const WrapperPet = styled.div`
   transition: 0.8s;
 
   :hover {
-    background-color: ${({ theme }) => theme['blue-700']};
+    background-color: ${({ theme }) => theme["blue-700"]};
   }
   :hover #textChild {
     color: white;
   }
   :hover #imgChild {
-    border: 3px solid ${({ theme }) => theme['blue-700']};
+    border: 3px solid ${({ theme }) => theme["blue-700"]};
   }
   :nth-child(odd) #imgChild {
-    background-color: ${({ theme }) => theme['red-500']};
+    background-color: ${({ theme }) => theme["red-500"]};
   }
   :nth-child(even) #imgChild {
-    background-color: ${({ theme }) => theme['yellow-500']};
+    background-color: ${({ theme }) => theme["yellow-500"]};
   }
 `;
 export const WrapperLogoPet = styled.div`
@@ -64,7 +64,7 @@ export const WrapperLogoPet = styled.div`
   position: absolute;
   bottom: 3rem;
   border: 3px solid ${({ theme }) => theme.white};
-
+  transition: 0.8s;
   border-radius: 10px;
 `;
 export const LogoPet = styled.img`
@@ -76,7 +76,7 @@ export const ImagePet = styled.img`
 `;
 export const NamePet = styled.p`
   margin-top: 2rem;
-  color: ${({ theme }) => theme['blue-700']};
+  color: ${({ theme }) => theme["blue-700"]};
   font-size: ${({ theme }) => theme.fontSize.lg};
   font-weight: bold;
 `;
