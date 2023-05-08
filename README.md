@@ -31,7 +31,7 @@ pnpm dev
 Ferramentas Utilizadas:
 
 <p>
-    <img src="https://skillicons.dev/icons?i=vite,ts" />
+    <img src="https://skillicons.dev/icons?i=vite,ts,styledcomponents" />
 </p>
 
 Bibliotecas:
